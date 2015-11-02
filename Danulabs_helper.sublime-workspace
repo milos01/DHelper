@@ -1,0 +1,911 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"fileToUp"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"col",
+				"collection"
+			],
+			[
+				"obj",
+				"objMusic"
+			],
+			[
+				"sear",
+				"searchedTags"
+			],
+			[
+				"sea",
+				"searchedTags"
+			],
+			[
+				"s",
+				"searchedTags"
+			],
+			[
+				"ke",
+				"keywords"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"onk",
+				"onkeyup	Attr"
+			],
+			[
+				"objBa",
+				"objBandNaziv"
+			],
+			[
+				"objB",
+				"objBandDesc"
+			],
+			[
+				"text",
+				"textArea"
+			],
+			[
+				"objD",
+				"objDesc"
+			],
+			[
+				"id",
+				"idPice"
+			],
+			[
+				"pi",
+				"piceID"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"ob",
+				"objLocation"
+			],
+			[
+				"od",
+				"od"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"add",
+				"addDiv"
+			],
+			[
+				"dat",
+				"datum"
+			],
+			[
+				"se",
+				"searchUsers"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ow",
+				"overflow"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"R",
+				"Request"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"date",
+				"dateChooser"
+			],
+			[
+				"fad",
+				"fadeOut"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"band",
+				"hvrBand"
+			],
+			[
+				"hvr",
+				"hvrRound"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"dra",
+				"drag"
+			],
+			[
+				"statu",
+				"statusUser"
+			],
+			[
+				"rese",
+				"reservation"
+			],
+			[
+				"res",
+				"reservation"
+			],
+			[
+				"reservation",
+				"reservations"
+			],
+			[
+				"datum",
+				"datum"
+			],
+			[
+				"day",
+				"dayReal"
+			],
+			[
+				"ho",
+				"hoverInfo"
+			],
+			[
+				"val",
+				"validate"
+			],
+			[
+				"baclk",
+				"background-color"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"left",
+				"leftHolder"
+			],
+			[
+				"obje",
+				"object"
+			],
+			[
+				"home",
+				"HomeController"
+			],
+			[
+				"onl",
+				"onclick	Attr"
+			],
+			[
+				"border-",
+				"border-left"
+			],
+			[
+				"Y",
+				"Y-m-d"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"to",
+				"today"
+			],
+			[
+				"Fu",
+				"FullMapShow"
+			],
+			[
+				"time",
+				"timeClose"
+			],
+			[
+				"cu",
+				"currentTime"
+			],
+			[
+				"th",
+				"thin"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"noti",
+				"notification"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"not",
+				"notificationDiv"
+			],
+			[
+				"dir",
+				"dirOpt"
+			],
+			[
+				"else",
+				"elseif"
+			],
+			[
+				"me",
+				"menuButton"
+			],
+			[
+				"is",
+				"isVisible"
+			],
+			[
+				"st",
+				"strcasecmp"
+			],
+			[
+				"bikes",
+				"bikesTip"
+			],
+			[
+				"u",
+				"username"
+			],
+			[
+				"T",
+				"TipKor"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"bike",
+				"bikesTip"
+			],
+			[
+				"vali",
+				"Validator"
+			],
+			[
+				"Inp",
+				"Input"
+			],
+			[
+				"oc",
+				"oc"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"backgroung-",
+				"background-origin"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"forum",
+				"forumMessages"
+			],
+			[
+				"from",
+				"from_id"
+			],
+			[
+				"post",
+				"postMessage"
+			],
+			[
+				"A",
+				"Auth"
+			],
+			[
+				"preg_match",
+				"preg_match_all"
+			],
+			[
+				"rea",
+				"readyPage"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Bilaa",
+				"BillableInterface"
+			],
+			[
+				"Billa",
+				"BillableTrait"
+			],
+			[
+				"Bil",
+				"BillableInterface"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"Thread",
+				"threading"
+			],
+			[
+				"threads",
+				"threads"
+			],
+			[
+				"ht",
+				"htmlentities"
+			],
+			[
+				"cnt",
+				"groupsCnt"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/reserve/app/routes.php",
+		"/C/xampp/htdocs/reserve/public/css/style.css",
+		"/C/xampp/htdocs/reserve/public/js/app.js",
+		"/C/xampp/htdocs/reserve/app/views/layouts/musicTag.blade.php",
+		"/C/xampp/htdocs/reserve/app/controllers/HomeController.php",
+		"/C/xampp/htdocs/reserve/app/views/layouts/object.blade.php",
+		"/C/xampp/htdocs/madevelopment/app/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/madevelopment/app/views/hello.blade.php",
+		"/C/xampp/htdocs/Demo/app/Models/Message.php",
+		"/C/xampp/htdocs/Demo/resources/views/send.blade.php",
+		"/C/xampp/htdocs/Demo/resources/views/message.blade.php",
+		"/C/xampp/htdocs/Demo/app/Http/routes.php",
+		"/C/xampp/htdocs/Demo/app/Http/Controllers/MessageController.php",
+		"/C/xampp/htdocs/Demo/app/Http/Controllers/SendController.php",
+		"/C/xampp/htdocs/MilosAndric/app/views/hello.php",
+		"/C/xampp/htdocs/Demo/public/js/bootstrap.min.js",
+		"/C/xampp/htdocs/Demo/public/js/npm.js",
+		"/C/xampp/htdocs/reserve/app/views/layouts/search.blade.php",
+		"/C/xampp/htdocs/Demo/server.js",
+		"/C/xampp/htdocs/Demo/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/Demo/resources/views/errors/503.blade.php",
+		"/C/xampp/htdocs/reserve/app/models/ID.php",
+		"/C/xampp/htdocs/reserve/app/models/Desavanja.php",
+		"/C/xampp/htdocs/reserve/composer.json",
+		"/C/xampp/htdocs/reserve/app/views/layouts/reservations.blade.php",
+		"/C/xampp/htdocs/reserve/app/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/Demo/server.php",
+		"/C/xampp/htdocs/reserve/server.php",
+		"/C/xampp/htdocs/reserve/app/models/Pica.php",
+		"/C/xampp/htdocs/reserve/app/models/IP.php",
+		"/C/Users/Milos Andric/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Milos Andric/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/xampp/htdocs/reserve/app/models/izabrani_dogadjaji.php",
+		"/C/xampp/htdocs/Miki/app/views/page.blade.php",
+		"/C/xampp/htdocs/Miki/app/views/hello.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv007e1e/Bv007e5f/hello.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv007e1e/Bv007e1e/page.blade.php",
+		"/C/xampp/htdocs/Ninagro/public/js/app.js",
+		"/C/xampp/htdocs/Ninagro/public/css/style.css",
+		"/C/xampp/htdocs/Ninagro/resources/views/Layouts/welcome.blade.php",
+		"/C/xampp/htdocs/Ninagro/resources/views/Layouts/home.blade.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/Rar$DIa0.914/SearchController.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/Rar$DIa0.514/search.js",
+		"/C/Users/Milos Andric/AppData/Local/Temp/Rar$DIa0.195/searchUsers.blade.php",
+		"/C/Users/MILOSA~1/AppData/Local/Temp/Rar$DRa0.756/search/app/views/searchUsers.blade.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/Rar$DIa0.500/User.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/Rar$DIa0.937/search.blade.php",
+		"/C/xampp/htdocs/Ninagro/app/Http/routes.php",
+		"/C/xampp/htdocs/Ninagro/app/Http/Controllers/homeController.php",
+		"/C/xampp/htdocs/Ninagro/app/Http/Controllers/Controller.php",
+		"/C/Users/Milos Andric/AppData/Local/Microsoft/Windows/INetCache/IE/N8XNALK1/css.css",
+		"/C/Users/Milos Andric/Downloads/css.css",
+		"/C/Users/Milos Andric/Desktop/Preloader_1.gif",
+		"/C/xampp/htdocs/Ninagro/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/Ninagro/.env",
+		"/C/xampp/htdocs/reserve/app/views/layouts/home.blade.php",
+		"/C/xampp/htdocs/reserve/app/models/Rez.php",
+		"/C/xampp/htdocs/reserve/app/models/Objekti.php",
+		"/C/Users/Milos Andric/Desktop/NightBuzz  Pocetna_files/index.js",
+		"/C/xampp/htdocs/reserve/app/models/Rezervacije.php",
+		"/C/xampp/htdocs/simsina/app/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/simsina/app/controllers/UserController.php",
+		"/C/xampp/htdocs/simsina/app/views/layouts/bike.blade.php",
+		"/C/xampp/htdocs/simsina/public/style.css",
+		"/C/xampp/htdocs/simsina/app/views/layouts/user.blade.php",
+		"/C/xampp/htdocs/simsina/public/js/app.js",
+		"/C/xampp/htdocs/reserve/app/config/fb_auth.php",
+		"/C/xampp/htdocs/reserve/app/models/Sto.php",
+		"/C/xampp/htdocs/reserve/app/controllers/DayController.php",
+		"/C/xampp/htdocs/reserve/app/config/app.php",
+		"/C/xampp/htdocs/reserve/vendor/autoload.php",
+		"/C/xampp/htdocs/reserve/app/config/database.php",
+		"/C/xampp/htdocs/reserve/app/controllers/BaseController.php",
+		"/C/Users/Milos Andric/Desktop/werunns.com - Klubovi, Cafe & Barovi, Pabovi, Kafane, Restorani_files/component.css",
+		"/C/xampp/htdocs/simsina/app/views/layouts/userMain.blade.php",
+		"/C/xampp/htdocs/simsina/app/config/view.php",
+		"/C/xampp/htdocs/Miki/public/css/style.css",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv004dd6/Bv004dd6/hello.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv004a72/Bv004a72/hello.php",
+		"/C/xampp/htdocs/frigee/app/views/mobile/hello.blade.php",
+		"/C/xampp/htdocs/frigee/app/views/desktop/hello.blade.php",
+		"/C/xampp/htdocs/frigee/app/config/view.php",
+		"/C/xampp/htdocs/Miki/app/controllers/HomeController.php",
+		"/C/xampp/htdocs/Miki/app/routes.php",
+		"/C/xampp/htdocs/Miki/app/config/app.php",
+		"/C/xampp/htdocs/Miki/public/js/app.js",
+		"/C/xampp/htdocs/Miki/app/views/dd.php",
+		"/C/xampp/htdocs/MilosAndric/public/js/app.js",
+		"/C/xampp/htdocs/MilosAndric/public/css/style.css",
+		"/C/xampp/htdocs/simsina/app/controllers/CommentController.php",
+		"/C/xampp/htdocs/simsina/app/controllers/RentController.php",
+		"/C/xampp/htdocs/simsina/app/controllers/BikeController.php",
+		"/C/xampp/htdocs/simsina/app/routes.php",
+		"/C/Users/Milos Andric/AppData/Local/Microsoft/Windows/INetCache/IE/0HE0CWBG/10.json",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv00073b/filters.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv000790/app.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv0074fa/composer.json",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv000812/view.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv0060f9/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv0007c7/view.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv00560e/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv0052ee/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv0060b8/app.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv005da9/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv005f96/app.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv005f4b/database.php",
+		"/C/xampp/htdocs/simsina/app/models/Notifications.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv002557/autoload.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv004854/filters.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv0048ad/filters.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv004984/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv00527f/app.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv005262/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv005194/hello.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv004ecf/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv004b3a/database.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv004956/app.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv005da9/Bv00492f/cache.php",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv003040/Bv003040/mysqld_safe_syslog.cnf",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv0075a9/Bv0076e9/my.cnf",
+		"/C/Users/Milos Andric/AppData/Local/Temp/BvSshSftp/Bv0075a9/Bv00764c/my.cnf",
+		"/C/xampp/htdocs/frigee/app/views/mobile/user.blade.php",
+		"/C/xampp/htdocs/frigee/public/css/style.css",
+		"/C/xampp/htdocs/frigee/app/views/mobile/throw.blade.php",
+		"/C/xampp/htdocs/frigee/app/controllers/UserController.php",
+		"/C/xampp/htdocs/frigee/app/models/Food.php",
+		"/C/xampp/htdocs/frigee/public/js/app.js",
+		"/C/xampp/htdocs/frigee/app/routes.php"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"music types",
+			"mysic types",
+			"music types",
+			"tag",
+			"33",
+			"add your pattern",
+			"events patterns",
+			"URL...",
+			"upload pic",
+			"search",
+			"seasrch",
+			"updateButton",
+			"detail-message",
+			".detail-message",
+			"|\n",
+			"3",
+			"lngs",
+			"load",
+			"16",
+			"success :function()",
+			"menagement",
+			"infof",
+			"edit info",
+			"right holder",
+			"right hodler",
+			"events",
+			"patterns",
+			"pattern",
+			"info",
+			"cuba",
+			"cuba'",
+			"search",
+			"resDiv",
+			"no r",
+			"no s",
+			"no se",
+			"no",
+			"ne",
+			";\n",
+			"white",
+			"proizvodiDiv",
+			"bigTextHolder",
+			"centerTextHodler",
+			"proizvodi",
+			"onama",
+			"ulText",
+			"333",
+			"onamaT",
+			"%;\n",
+			"border",
+			"border-top",
+			"border-bottom",
+			"margin-bottom",
+			"go",
+			"picture",
+			"slika",
+			"picure",
+			"logout",
+			"no reservations",
+			"map",
+			";*/\n",
+			"family",
+			"lato",
+			"load",
+			"days",
+			"}\n",
+			"stoPos",
+			"rese",
+			"repeat",
+			"reserved",
+			"reservedd",
+			"days",
+			"image",
+			"each",
+			"console",
+			"hover",
+			"cuba",
+			"podi",
+			"podium",
+			"stol",
+			"logoHome1",
+			"userPicMenu",
+			"jzk",
+			"logoHome",
+			"userPic",
+			"logo2",
+			"hover",
+			"BottomHolder",
+			"Bottom",
+			"bottomHolder",
+			"idd",
+			"Home",
+			"no",
+			"no more",
+			"see all",
+			"reserve",
+			"picure",
+			"allRes",
+			"wid",
+			"width:500px;",
+			"	\n",
+			"red",
+			"containers3",
+			"arrow",
+			"array",
+			"user",
+			"logo",
+			"radi01",
+			"radi",
+			"picure",
+			"login",
+			"own",
+			"ow",
+			"ovn",
+			"ovner",
+			"containeri01",
+			";\n",
+			"deac",
+			"deactivate",
+			"5px",
+			"slika01",
+			"left",
+			"leftg",
+			"login",
+			"upper",
+			"cuba",
+			"LogInModal",
+			"cuba"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"endid",
+			";\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Danulabs_helper.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"server.",
+				"reserve\\server.php"
+			],
+			[
+				"reserve/routes.php",
+				"reserve\\app\\routes.php"
+			],
+			[
+				"errors",
+				"simsina\\vendor\\nikic\\php-parser\\lib\\PHPParser\\Node\\Expr\\ErrorSuppress.php"
+			],
+			[
+				"hello",
+				"pay\\app\\views\\hello.php"
+			],
+			[
+				"f",
+				"pay\\app\\filters.php"
+			],
+			[
+				"user.php",
+				"PaySys\\vendor\\symfony\\security-core\\Symfony\\Component\\Security\\Core\\User\\User.php"
+			],
+			[
+				"use",
+				"madevelopment\\app\\models\\User.php"
+			],
+			[
+				"billa",
+				"madevelopment\\vendor\\laravel\\cashier\\src\\Laravel\\Cashier\\BillableTrait.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
