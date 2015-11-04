@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', ['middleware' => 'guest', function () {
     return view('layouts.master');
+}]);
+
+Route::group(['middleware' => 'auth'],function(){
+	Route::get('/home', function () {
+    	return "Home";
+	});
+});
+
+Route::group(['middleware' => 'guest'],function(){
+	Route::group(array('before' => 'csrf'),function(){
+		Route::post('/user/login', array('uses'=>'UserController@postLogin','as'=>'postLogin'));
+	});
 });
