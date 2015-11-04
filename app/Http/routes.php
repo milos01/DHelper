@@ -16,9 +16,10 @@ Route::get('/', ['middleware' => 'guest', function () {
 }]);
 
 Route::group(['middleware' => 'auth'],function(){
-	Route::get('/home', function () {
-    	return "Home";
+	Route::get('/home', function(){
+		return view('layouts.home');
 	});
+	Route::get('/user/logout',array('uses'=>'UserController@userLogout','as'=>'userLogout'));
 });
 
 Route::group(['middleware' => 'guest'],function(){

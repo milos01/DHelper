@@ -13,15 +13,28 @@ class UserController extends Controller {
 			return redirect('/')->with('success','Wrong inputs');
 		}else{
 		$remember = (Input::has('remember')) ? true : false;
-		$auth = Auth::attempt(array(
-			'username'=> Input::get('username'),
-			'password'=> Input::get('password')
-		),$remember);
-			if($auth){
-				return "Fala kiti";
+		$fullUsername = explode("@", Input::get('username'));
+			if(sizeof($fullUsername) == 2){
+				if($fullUsername[1] == "danulabs"){
+						$auth = Auth::attempt(array(
+							'username'=> $fullUsername[0],
+							'password'=> Input::get('password')
+						),$remember);
+							if($auth){
+								return redirect('/home');
+							}else{
+								return redirect('/')->with('success','Wrong inputs');
+							}
+				}else{
+						return redirect('/')->with('success','Wrong inputs');
+				}
 			}else{
-				return "Doslo je do greske!";
+				return redirect('/')->with('success','Wrong inputs');
 			}
 		}
+	}
+	public function userLogout(){
+		Auth::logout();
+		return redirect('/');
 	}
 } 

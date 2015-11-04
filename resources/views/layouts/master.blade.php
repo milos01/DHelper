@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Danulabs helper</title>
     @section('head')
+      <link href='https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="{{ URL::asset('../css/style.css') }}"/>
       <!-- Latest compiled and minified CSS -->
@@ -11,6 +12,11 @@
 
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">  
+    <style type="text/css">
+      body{
+        /*font-family: 'Didact Gothic', sans-serif;*/
+      }
+    </style>
     @show
   </head>
   
@@ -26,12 +32,12 @@
         <input name="username" class="form-control inputs" type="text" placeholder="Enter username..."/>
         <input name="password" class="form-control inputs" type="password" placeholder="Enter password..."/>
         <input class="btn btn-primary inputs" type="submit" value="Log In" style="width:120px;margin-left:130px" />
-        <div class = "check/box">
+        <span class = "check/box pull-left" style="margin-top:-30px">
             <label for = "remember">
               <input type ="checkbox"  id="remember" name="remember">
-              Remember me
+              Keep me in
             </label>
-        </div>
+        </span>
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
       </div>
     </form>
