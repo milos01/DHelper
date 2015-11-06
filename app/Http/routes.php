@@ -20,6 +20,11 @@ Route::group(['middleware' => 'auth'],function(){
 		return view('layouts.home');
 	});
 	Route::get('/user/logout',array('uses'=>'UserController@userLogout','as'=>'userLogout'));
+	Route::get('/add/user',array('uses'=>'AdminController@addUser','as'=>'addUser'));
+	Route::get('/manage/users',array('uses'=>'AdminController@manageUsers','as'=>'manageUsers'));
+	Route::get('/make/admin/{id}',array('uses'=>'AdminController@makeAdmin','as'=>'makeAdmin'));
+	Route::get('/downgrade/{id}',array('uses'=>'AdminController@downgrade','as'=>'downgrade'));
+	Route::post('/user/create', array('uses'=>'AdminController@createUser','as'=>'createUser'));
 });
 
 Route::group(['middleware' => 'guest'],function(){

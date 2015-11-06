@@ -1,6 +1,6 @@
 @extends('layouts.master')
+<title>Helper | Home</title>
 @section('head')
-	<title>Helper|Home</title>
 	@parent
 @stop
 @section('body')
@@ -14,11 +14,19 @@
 		<div id="contentHolder">
 			<div class="leftHolder">
 				@if(Auth::user()->isAdmin())
-					<div class="menuItemAdmin">Mange users</div>
+					<a href="{{URL::route('manageUsers')}}" style="text-decoration:none">
+						<div class="menuItemAdmin">Mange users</div>
+					</a>
+					<a href="{{URL::route('addUser')}}" style="text-decoration:none">
+						<div class="menuItemAdmin">Add user</div>
+					</a>
 				@endif
 				<a href="{{URL::route('userLogout')}}" style="text-decoration:none">
 					<div class="menuItem">Log out</div>
 				</a>
+			</div>
+			<div class="rightHolder">
+				<p id="selectOption">Select option from the left menu</p>
 			</div>
 		</div>
 	</div>
