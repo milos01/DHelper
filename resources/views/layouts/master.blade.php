@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Danulabs helper</title>
     @section('head')
+      <link href="../opensearch.xml" rel="search" title="aaronpk" type="application/opensearchdescription+xml">
       <link href='https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
       <link rel="stylesheet" href="{{ URL::asset('../css/style.css') }}"/>
@@ -22,8 +23,13 @@
   
 <body>
 @section('body')
-  @if(Session::has('success'))
-    <div class = "alert alert-danger alertDiv" style="position:absolute;width:100%;top:0;border-radius:0px;text-align:center">{{Session::get('success')}}</div>
+  @if($errors)
+    @foreach($errors->all() as $error)
+      <div class = "alert alert-danger alertDiv" style="position:absolute;width:100%;top:0;border-radius:0px;text-align:center">{{$error}}</div>
+    @endforeach
+  @endif
+  @if(Session::has('fail'))
+    <div class = "alert alert-danger alertDiv" style="position:absolute;width:100%;top:0;border-radius:0px;text-align:center">{{Session::get('fail')}}</div>
   @endif
   <div class="holder">
     <h1 id="header">Danulabs helper</h1>

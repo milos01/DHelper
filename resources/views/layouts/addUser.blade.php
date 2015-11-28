@@ -4,9 +4,13 @@
 	@parent
 @stop
 @section('body')
-	@if(Session::has('fail'))
-	    <div class = "alert alert-danger alertDiv" style="position:absolute;width:100%;top:0;border-radius:0px;text-align:center">{{Session::get('fail')}}</div>
-	@elseif(Session::has('success'))
+	@if($errors)
+		@foreach($errors->all() as $error)
+			<div class = "alert alert-danger alertDiv" style="position:absolute;width:100%;top:0;border-radius:0px;text-align:center">{{$error}}</div>
+		@endforeach
+	@endif
+	    
+	@if(Session::has('success'))
 		<div class = "alert alert-success alertDiv" style="position:absolute;width:100%;top:0;border-radius:0px;text-align:center">{{Session::get('success')}}</div>
 	@endif
 	<div class="holderHome">
@@ -18,6 +22,12 @@
 		@endif
 		<div id="contentHolder">
 			<div class="leftHolder">
+				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none">
+					<div class="menuItem">GUID Generator</div>
+				</a>
+				<a href="{{URL::route('userLogout')}}" style="text-decoration:none">
+					<div class="menuItem">Hex to GUID</div>
+				</a>
 				@if(Auth::user()->isAdmin())
 					<a href="{{URL::route('manageUsers')}}" style="text-decoration:none">
 						<div class="menuItemAdmin">Manage users</div>

@@ -2,36 +2,29 @@
 
 namespace App\Http\Controllers; 
 use Validator, Input, redirect, Auth;
- 
+use App\Http\Requests\UserLoginRequest;
+
 class UserController extends Controller { 
-	public function postLogin(){
-		$validate = Validator::make(Input::all(),array(
-			'username'=>'required|min:10',
-			'password'=>'required'
-		));
-		if ($validate->fails()){
-			return redirect('/')->with('success','Wrong inputs');
-		}else{
+	public function postLogin(UserLoginRequest $request){
 		$remember = (Input::has('remember')) ? true : false;
-		$fullUsername = explode("@", Input::get('username'));
+		$fullUsername = explode("@", $request->input('username'));
 			if(sizeof($fullUsername) == 2){
 				if($fullUsername[1] == "danulabs"){
 						$auth = Auth::attempt(array(
 							'username'=> $fullUsername[0],
-							'password'=> Input::get('password')
+							'password'=> $request->input('password')
 						),$remember);
 							if($auth){
 								return redirect('/home');
 							}else{
-								return redirect('/')->with('success','Wrong inputs');
+								return redirect('/')->with('fail','Wrong inputs');
 							}
 				}else{
-						return redirect('/')->with('success','Wrong inputs');
+						return redirect('/')->with('fail','Wrong inputs');
 				}
 			}else{
-				return redirect('/')->with('success','Wrong inputs');
+				return redirect('/')->with('fail','Wrong inputs');
 			}
-		}
 	}
 	public function userLogout(){
 		Auth::logout();

@@ -14,16 +14,19 @@
 Route::get('/', ['middleware' => 'guest', function () {
     return view('layouts.master');
 }]);
-
 Route::group(['middleware' => 'auth'],function(){
 	Route::get('/home', function(){
 		return view('layouts.home');
 	});
+	Route::get('/generateGUID',array('uses'=>'HelperController@guidGenerator','as'=>'guidGenerator'));
 	Route::get('/user/logout',array('uses'=>'UserController@userLogout','as'=>'userLogout'));
 	Route::get('/add/user',array('uses'=>'AdminController@addUser','as'=>'addUser'));
 	Route::get('/manage/users',array('uses'=>'AdminController@manageUsers','as'=>'manageUsers'));
 	Route::get('/make/admin/{id}',array('uses'=>'AdminController@makeAdmin','as'=>'makeAdmin'));
 	Route::get('/downgrade/{id}',array('uses'=>'AdminController@downgrade','as'=>'downgrade'));
+	Route::get('/guidToHex',array('uses'=>'HelperController@guidToHex','as'=>'guidToHex'));
+	Route::get('/guidToHex/gth',array('uses'=>'HelperController@gth','as'=>'gth'));
+	Route::get('/generateGUID/gg',array('uses'=>'HelperController@gguid','as'=>'gguid'));
 	Route::post('/user/create', array('uses'=>'AdminController@createUser','as'=>'createUser'));
 });
 

@@ -1,0 +1,7 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>DanulabsHelper</ShortName>
+<Description>Danulabs Helper</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Url type="text/html" method="GET" template="http://localhost:8000/generateGUID/gg?guids={searchTerms}"/>
+<SearchForm>http://localhost:8000/generateGUID/gg</SearchForm>
+</OpenSearchDescription>
