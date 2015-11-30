@@ -28,6 +28,12 @@
 				<a href="{{URL::route('userLogout')}}" style="text-decoration:none">
 					<div class="menuItem">Hex to GUID</div>
 				</a>
+				<a href="{{URL::route('stringToHash')}}" style="text-decoration:none">
+					<div class="menuItem">String to hash</div>
+				</a>
+				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none">
+					<div class="menuItem">Base64</div>
+				</a>
 				@if(Auth::user()->isAdmin())
 					<a href="{{URL::route('manageUsers')}}" style="text-decoration:none">
 						<div class="menuItemAdmin">Manage users</div>

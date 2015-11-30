@@ -24,13 +24,20 @@
 		<div id="contentHolder" style="height:700px">
 			<div class="leftHolder">
 				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none">
-					<div class="menuItem" style="background-color:#fff">GUID Generator</div>
+					<div class="menuItem">GUID Generator</div>
 				</a>
 				
 				<div class="menuItem" style="background-color:#f5f5f5;">Hex to GUID</div>
-		
+				<a href="{{URL::route('stringToHash')}}" style="text-decoration:none">
+					<div class="menuItem">String to hash</div>
+				</a>
+				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none">
+					<div class="menuItem">Base64</div>
+				</a>
 				@if(Auth::user()->isAdmin())
-					<div class="menuItemAdmin" >Mange users</div>
+					<a href="{{URL::route('manageUsers')}}" style="text-decoration:none">
+						<div class="menuItemAdmin" >Mange users</div>
+					</a>
 					<a href="{{URL::route('addUser')}}" style="text-decoration:none">
 						<div class="menuItemAdmin">Add user</div>
 					</a>

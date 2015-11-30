@@ -3,8 +3,6 @@
 namespace App\Commands;
 
 
-use Illuminate\Contracts\Bus\SelfHandling;
-
 class CreateUserCommand 
 {
     public $username;

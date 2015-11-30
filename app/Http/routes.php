@@ -19,6 +19,7 @@ Route::group(['middleware' => 'auth'],function(){
 		return view('layouts.home');
 	});
 	Route::get('/generateGUID',array('uses'=>'HelperController@guidGenerator','as'=>'guidGenerator'));
+	Route::get('/stringToHash',array('uses'=>'HelperController@stringToHash','as'=>'stringToHash'));
 	Route::get('/user/logout',array('uses'=>'UserController@userLogout','as'=>'userLogout'));
 	Route::get('/add/user',array('uses'=>'AdminController@addUser','as'=>'addUser'));
 	Route::get('/manage/users',array('uses'=>'AdminController@manageUsers','as'=>'manageUsers'));
@@ -26,6 +27,7 @@ Route::group(['middleware' => 'auth'],function(){
 	Route::get('/downgrade/{id}',array('uses'=>'AdminController@downgrade','as'=>'downgrade'));
 	Route::get('/guidToHex',array('uses'=>'HelperController@guidToHex','as'=>'guidToHex'));
 	Route::get('/guidToHex/gth',array('uses'=>'HelperController@gth','as'=>'gth'));
+	Route::get('/stringToHash/hss',array('uses'=>'HelperController@hss','as'=>'hss'));
 	Route::get('/generateGUID/gg',array('uses'=>'HelperController@gguid','as'=>'gguid'));
 	Route::post('/user/create', array('uses'=>'AdminController@createUser','as'=>'createUser'));
 });

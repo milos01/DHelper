@@ -1,5 +1,5 @@
 @extends('layouts.master')
-<title>Helper | Generate GUID</title>
+<title>Helper | String to hash</title>
 @section('head')
 	@parent
 @stop
@@ -21,17 +21,15 @@
 		@else
 			<p class="userType pull-right">Administrator</p>
 		@endif
-		<div id="contentHolder">
+		<div id="contentHolder" style="height:650px">
 			<div class="leftHolder">
-				
-				<div class="menuItem" style="background-color:#f5f5f5;">GUID Generator</div>
-	
+				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none;">
+					<div class="menuItem">GUID Generator</div>
+				</a>
 				<a href="{{URL::route('guidToHex')}}" style="text-decoration:none">
 					<div class="menuItem">Hex to GUID</div>
 				</a>
-				<a href="{{URL::route('stringToHash')}}" style="text-decoration:none">
-					<div class="menuItem">String to hash</div>
-				</a>
+				<div class="menuItem" style="background-color:#f5f5f5;">String to hash</div>
 				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none">
 					<div class="menuItem">Base64</div>
 				</a>
@@ -50,21 +48,24 @@
 			<div class="rightHolder">
 			<ol class="breadcrumb" style="margin-top:20px">
 	  			<li><a href="/">Home</a></li>
-	  			<li class="active">Generate guids</li>
+	  			<li class="active">String to hash</li>
 			</ol>
-				<p style="font-family:'Lobster';font-size:17px;margin-top:30px">Generate guids</p>
+				<p style="font-family:'Lobster';font-size:17px;margin-top:30px">String to hash</p>
 			<hr/>
 				<div class="centerHolder" style="margin-top:-15px;width:100%;margin:auto auto">
-					<p>How many GUIDs do you want:</p>
-					<form method="GET" action="{{URL::route('gguid')}}"> 
-						<input name="guids" class="form-control" type="text" style="width:200px;margin-top:20px" />
-						<button class="btn btn-primary" type="submit" style="margin-top:20px">Generate</button>
+					<p>Enter string:</p>
+					<form method="GET" action="{{URL::route('hss')}}"> 
+						<textarea rows="7" name="string" class="form-control" type="text" style="width:300px;margin-top:20px"></textarea>
+						<button class="btn btn-primary" type="submit" style="margin-top:10px">Hash string</button>
 					</form>
-					@if(isset($result))
-						<div class="guidContainer" style="overflow-y:scroll;max-height:180px;width:400px;background:#f5f5f5">
-							@foreach($guidss as $guid)
-								<p style="padding:2px 10px">{{$guid}}</p>
-							@endforeach
+					@if(isset($md5))
+						<h2>Result</h2>
+						<hr/>
+						<div class="guidContainer" style="">
+							<p>md5 hash:</p>
+							<input type="text" value="{{$md5}}" class="form-control" style="width:300px" />
+							<p style="margin-top:10px">sha1 hash:</p>
+							<input type="text" value="{{$sha1}}" class="form-control" style="width:300px"/>
 						</div>
 					@endif
 				</div>

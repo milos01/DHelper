@@ -18,11 +18,17 @@
 		@endif
 		<div id="contentHolder">
 			<div class="leftHolder">
-				<a href="{{URL::route('userLogout')}}" style="text-decoration:none">
+				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none">
 					<div class="menuItem">GUID Generator</div>
 				</a>
-				<a href="{{URL::route('userLogout')}}" style="text-decoration:none">
+				<a href="{{URL::route('guidToHex')}}" style="text-decoration:none">
 					<div class="menuItem">Hex to GUID</div>
+				</a>
+				<a href="{{URL::route('stringToHash')}}" style="text-decoration:none">
+					<div class="menuItem">String to hash</div>
+				</a>
+				<a href="{{URL::route('guidGenerator')}}" style="text-decoration:none">
+					<div class="menuItem">Base64</div>
 				</a>
 				@if(Auth::user()->isAdmin())
 					<div class="menuItemAdmin" style="background:#3399FF">Mange users</div>

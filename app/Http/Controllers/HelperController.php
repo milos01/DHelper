@@ -3,11 +3,13 @@
 namespace App\Http\Controllers; 
 use App\Http\Requests\generateGUIDRequest;
 use App\Http\Requests\GHTRequest;
+use App\Http\Requests\StrTHashRequest;
 
 class HelperController extends Controller { 
 	public function guidGenerator(){ 
 		return view('layouts.generateGUID');
 	}
+
 	public function gguid(generateGUIDRequest $request){
 		$guidss = new \Illuminate\Database\Eloquent\Collection();
 		$result = $request->input('guids');
@@ -20,7 +22,7 @@ class HelperController extends Controller {
 			return redirect('/generateGUID')->with('fail','Value must be numeric');
 		}
 	}
-	public function getGUID(){
+	private function getGUID(){
 	    if (function_exists('com_create_guid')){
 	        return com_create_guid();
 	    }else{
@@ -40,8 +42,19 @@ class HelperController extends Controller {
 	public function guidToHex(){
 		return view('layouts.hexToGuid');
 	}
+
 	public function gth(GHTRequest $request){
 		$var = $request->input('guidtohex');
 		return view('layouts.hexToGuid')->with('var',$var);
+	}
+
+	public function stringToHash(){
+		return view('layouts.stringToHash');
+	}
+	
+	public function hss(StrTHashRequest $request){
+		$md5 = md5($request->input('string'));
+		$sha1 = sha1($request->input('string'));
+		return view('layouts.stringToHash')->with('md5',$md5)->with('sha1', $sha1);
 	}
 } 
